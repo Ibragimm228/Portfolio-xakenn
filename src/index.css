@@ -141,6 +141,22 @@
   background: #6a3fcb;
 }
 
+/* Mobile optimizations */
+@media screen and (max-width: 500px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    position: relative;
+    width: 100%;
+  }
+  
+  canvas {
+    touch-action: none;
+  }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
